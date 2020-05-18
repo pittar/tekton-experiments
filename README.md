@@ -26,7 +26,7 @@ $ oc apply -k app/overlays/all
 The pipeline resources (tasks, resoruces, pipelines, etc...) can be created with:
 
 ```
-$ oc apply -k pipelines
+$ oc apply -k tekton
 ```
 
 You can then start a pipeline build with:
