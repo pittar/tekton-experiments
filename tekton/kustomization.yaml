@@ -15,3 +15,8 @@ resources:
   - pipelines/build-pipeline.yaml
   - pipelines/release-pipeline.yaml
   - serviceaccounts/pipeline-sa.yaml
+  - triggers/build-template.yaml
+  - triggers/build-binding.yaml
+  - triggers/build-event-listener.yaml
+  - triggers/trigger-route.yaml
+  
